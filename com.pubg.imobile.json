@@ -1,0 +1,146 @@
+{
+    "Config": [
+        {
+            "Custom scheme(1)": {
+                "configType": "Customer",
+                "copiedNum": 0,
+                "moveTop": false,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-Custom scheme(1).json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "No scheme": {
+                "configType": "Customer",
+                "moveTop": false,
+                "path": "sanitary-4EA33DC3-6C4B-46A2-A180-6F2597234300",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "keymap-BGMI-1080pv2.1": {
+                "configType": "Customer",
+                "copiedNum": 1,
+                "moveTop": false,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-keymap-BGMI-1080pv2.1.json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "keymap-BGMI-1080p Amit": {
+                "configType": "Customer",
+                "copiedNum": 0,
+                "f12Switch": 1,
+                "moveTop": false,
+                "noMoreTips": true,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-keymap-BGMI-1080p Amit.json",
+                "status": "",
+                "transparency": 94,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "SNAILYT-1080P-2k-IPAD-V3.2": {
+                "configType": "Customer",
+                "copiedNum": 0,
+                "f12Switch": 1,
+                "moveTop": false,
+                "noMoreTips": true,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-SNAILYT-1080P-2k-IPAD-V3.2.json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 0.6,
+                "ySensitivity": 0.75
+            }
+        },
+        {
+            "mumu-720p-keymap": {
+                "configType": "Customer",
+                "copiedNum": 1,
+                "f12Switch": 0,
+                "moveTop": false,
+                "noMoreTips": true,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-mumu-720p-keymap.json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "mumu-720p-keymap(1)": {
+                "configType": "Customer",
+                "copiedNum": 2,
+                "f12Switch": 0,
+                "moveTop": false,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-mumu-720p-keymap(1).json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "1600x900": {
+                "configType": "Customer",
+                "copiedNum": 0,
+                "f12Switch": 0,
+                "moveTop": false,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-1600x900.json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        },
+        {
+            "1152x864": {
+                "configType": "Customer",
+                "copiedNum": 0,
+                "f12Switch": 0,
+                "moveTop": false,
+                "noMoreTips": true,
+                "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-1152x864.json",
+                "status": "",
+                "transparency": 100,
+                "type": 0,
+                "xSensitivity": 1,
+                "ySensitivity": 1
+            }
+        }
+    ],
+    "Current": {
+        "1152x864": {
+            "configType": "Customer",
+            "copiedNum": 0,
+            "f12Switch": 0,
+            "moveTop": false,
+            "noMoreTips": true,
+            "path": "C:/Users/msami/AppData/Roaming/Netease/MuMuPlayerGlobal/data/keymapConfig/com.pubg.imobile-1152x864.json",
+            "status": "",
+            "transparency": 100,
+            "type": 0,
+            "xSensitivity": 1,
+            "ySensitivity": 1
+        }
+    },
+    "Version": 1
+}

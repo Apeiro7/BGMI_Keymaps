@@ -1,0 +1,62 @@
+{
+    "info": {
+        "background_color": "000000FF",
+        "is_joystick": false,
+        "transparent_ESC": false,
+        "transparent_keyboard": true,
+        "transparent_mouse": "Mouse_No_Transparent",
+        "transparent_mouse_windows_raw_move_period": 0,
+        "transparent_mouse_windows_raw_move_sensitivity": 1,
+        "transparent_wheel": false,
+        "visibility": true
+    },
+    "keymaps": [
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.42725880551301687,
+                    "rel_y": 0.3741496598639456
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 52,
+                "text": ".",
+                "virtual_key": 190
+            },
+            "rel_work_position": {
+                "rel_x": 0.42725880551301687,
+                "rel_y": 0.3741496598639456
+            },
+            "type": "Click"
+        }
+    ],
+    "param": {
+        "transparent_joystick_policy": {
+            "protocol_version": 0
+        },
+        "transparent_wheel_policy": {
+            "protocol_version": 0,
+            "sensitivity": 1
+        },
+        "virtual_joystick": {
+            "enable": false
+        },
+        "wheel_policy": {
+            "wheel_step_distance": 0.01,
+            "zoom_degree": 45,
+            "zoom_first_interval": 16,
+            "zoom_last_idle": 80,
+            "zoom_margin": 10,
+            "zoom_operation_shortcut_mode": false,
+            "zoom_period": 14,
+            "zoom_step_distance": 0.00325,
+            "zoom_steps": 8
+        }
+    }
+}

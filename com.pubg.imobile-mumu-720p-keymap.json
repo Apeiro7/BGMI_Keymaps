@@ -1,0 +1,1420 @@
+{
+    "info": {
+        "background_color": "000000FF",
+        "is_joystick": false,
+        "transparent_ESC": false,
+        "transparent_keyboard": true,
+        "transparent_mouse": "Mouse_No_Transparent",
+        "transparent_mouse_windows_raw_move_period": 0,
+        "transparent_mouse_windows_raw_move_sensitivity": 1,
+        "transparent_wheel": false,
+        "visibility": true
+    },
+    "keymaps": [
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.30857580398162326,
+                    "rel_y": 0.9306122448979591
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 8,
+                "text": "back_mouse",
+                "virtual_key": 8
+            },
+            "rel_work_position": {
+                "rel_x": 0.30857580398162326,
+                "rel_y": 0.9306122448979591
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.9356814701378254,
+                    "rel_y": 0.9251700680272109
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 44,
+                "text": "Z",
+                "virtual_key": 90
+            },
+            "press_actions": [
+                "click_rel:(0.938776,0.891156)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.9356814701378254,
+                "rel_y": 0.9251700680272109
+            },
+            "release_actions": [
+                "sleep:100",
+                "exit_staring",
+                "enter_staring"
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.7297090352220521,
+                    "rel_y": 0.7972789115646258
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 16,
+                "text": "forward_mouse",
+                "virtual_key": 16
+            },
+            "rel_work_position": {
+                "rel_x": 0.7297090352220521,
+                "rel_y": 0.7972789115646258
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.6912165014731033,
+                    "rel_y": 0.9364602608454683
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 63,
+                "text": "F5",
+                "virtual_key": 116
+            },
+            "rel_work_position": {
+                "rel_x": 0.6912165014731033,
+                "rel_y": 0.9364602608454683
+            },
+            "spell_info": {
+                "range": 60,
+                "rel_position": {
+                    "rel_x": 0.5,
+                    "rel_y": 0.5
+                },
+                "rel_radius": 0.5
+            },
+            "spell_option": {
+                "is_occupy_swipehold_input": false,
+                "left_mouse_control_release": true,
+                "need_spell_direction": true,
+                "spell_mode_policy": "Spell_mode_intelligent",
+                "spell_touch_location_policy": "Spell_touch_location_mouse_dependence",
+                "spell_trigger_policy": "Spell_Trigger_On_Release_Key",
+                "stop_walk_after_spell": false,
+                "walk_with_spell": true
+            },
+            "swipehold_info": {
+                "first_point_policy": {
+                    "handle_type": "Move",
+                    "idle_before_first_press": 0,
+                    "interval": 32,
+                    "move_type": "Constant",
+                    "no_press_first_center_point": false,
+                    "period": 16,
+                    "speed": 100,
+                    "steps": 6,
+                    "wait_for_second": 8
+                },
+                "hold_center_interval_after_release": 0,
+                "in_line_policy": "Use_Both",
+                "interval": 32,
+                "invalid_zone_info": {
+                    "enable": false,
+                    "rel_radius_inside_invalid_zone": 0.005,
+                    "rel_radius_outside_invalid_zone": 0.01
+                },
+                "period": 16,
+                "rel_position": {
+                    "rel_x": 0,
+                    "rel_y": 0
+                },
+                "rel_radius": 0.1,
+                "speed": 100,
+                "start_additional_point_info": {
+                    "distance": 0.01,
+                    "enable": true,
+                    "period": 8,
+                    "steps": 4
+                },
+                "steps": 6,
+                "subsequent_point_policy": {
+                    "handle_type": "Click",
+                    "period": 16,
+                    "steps": 6
+                },
+                "target_point_input_compensatory_policy": {
+                    "count": 3,
+                    "distance": 0.01,
+                    "enable": false,
+                    "period": 8,
+                    "steps": 3,
+                    "x_policy": "Default",
+                    "x_policy_intercept_phaseshift": 0,
+                    "x_policy_slope_period": 1,
+                    "y_policy": "Default",
+                    "y_policy_intercept_phaseshift": 0,
+                    "y_policy_slope_period": 1
+                }
+            },
+            "type": "Spell"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.8517673830619746,
+                    "rel_y": 0.8306854151934577
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 42,
+                "text": "Shift",
+                "virtual_key": 16
+            },
+            "rel_work_position": {
+                "rel_x": 0.8517673830619746,
+                "rel_y": 0.8306854151934577
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.47798501324116677,
+                    "rel_y": 0.048574236748612734
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 549,
+                "text": "wheel_down_mouse",
+                "virtual_key": -1
+            },
+            "press_actions": [
+                "click_rel:(0.312639,0.201051)",
+                "click_rel:(0.309682,0.544021)",
+                "click_rel:(0.311160,0.207622)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.47798501324116677,
+                "rel_y": 0.048574236748612734
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.13197636244254762,
+                    "rel_y": 0.18786464410735124
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 336,
+                "text": "Direction_down",
+                "virtual_key": 40
+            },
+            "press_actions": [
+                "press_rel:(0.837398,0.804205)",
+                "press_rel:(0.849963,0.817346)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.13197636244254762,
+                "rel_y": 0.18786464410735124
+            },
+            "release_actions": [
+                "release_rel:(0.837398,0.804205)",
+                "release_rel:(0.849963,0.817346)"
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.1011162179908076,
+                    "rel_y": 0.18786464410735124
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 328,
+                "text": "Direction_up",
+                "virtual_key": 38
+            },
+            "press_actions": [
+                "press_rel:(0.827051,0.604468)",
+                "press_rel:(0.838137,0.596583)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.1011162179908076,
+                "rel_y": 0.18786464410735124
+            },
+            "release_actions": [
+                "release_rel:(0.827051,0.604468)",
+                "release_rel:(0.838137,0.596583)"
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.9717662508207485,
+                    "rel_y": 0.7970491661971021
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 40,
+                "text": "'",
+                "virtual_key": 222
+            },
+            "rel_work_position": {
+                "rel_x": 0.9717662508207485,
+                "rel_y": 0.7970491661971021
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.8430718715391456,
+                    "rel_y": 0.9296674844804277
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 46,
+                "text": "C",
+                "virtual_key": 67
+            },
+            "rel_work_position": {
+                "rel_x": 0.8430718715391456,
+                "rel_y": 0.9296674844804277
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.9607850273229014,
+                    "rel_y": 0.681651228237082
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 57,
+                "text": "Space",
+                "virtual_key": 32
+            },
+            "rel_work_position": {
+                "rel_x": 0.9607850273229014,
+                "rel_y": 0.681651228237082
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.24097176625082076,
+                    "rel_y": 0.056009334889148193
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 50,
+                "text": "M",
+                "virtual_key": 77
+            },
+            "press_actions": [
+                "click_rel:(0.991464,0.007001)",
+                "exit_staring",
+                "release_all",
+                "keyboard_switch:53"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.24097176625082076,
+                "rel_y": 0.056009334889148193
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.23974446513402042,
+                    "rel_y": 0.11172427117178316
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 33,
+                "text": "F",
+                "virtual_key": 70
+            },
+            "press_actions": [
+                "click_rel:(0.675345,0.423129)",
+                "click_rel:(0.773354,0.605442)",
+                "click_rel:(0.871363,0.448980)",
+                "click_rel:(0.676876,0.682993)",
+                "click_rel:(0.500766,0.608163)",
+                "click_rel:(0.250383,0.537415)",
+                "sleep:250",
+                "keyboard_switch:53",
+                "keyboard_switch:53"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.23974446513402042,
+                "rel_y": 0.11172427117178316
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.16269427379541626,
+                    "rel_y": 0.11355254735818159
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 5,
+                "text": "4",
+                "virtual_key": 52
+            },
+            "press_actions": [
+                "curve_rel:(0.692956,0.937415);(0.689893,0.828571)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.16269427379541626,
+                "rel_y": 0.11355254735818159
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.1999195165060921,
+                    "rel_y": 0.11525336867439316
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 48,
+                "text": "B",
+                "virtual_key": 66
+            },
+            "press_actions": [
+                "click_rel:(0.433851,0.842313)",
+                "click_rel:(0.560237,0.838371)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.1999195165060921,
+                "rel_y": 0.11525336867439316
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.5607132670242817,
+                    "rel_y": 0.9117525926380544
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 3,
+                "text": "2",
+                "virtual_key": 50
+            },
+            "rel_work_position": {
+                "rel_x": 0.5607132670242817,
+                "rel_y": 0.9117525926380544
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.4376704115025656,
+                    "rel_y": 0.9084545599904387
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 2,
+                "text": "1",
+                "virtual_key": 49
+            },
+            "rel_work_position": {
+                "rel_x": 0.4376704115025656,
+                "rel_y": 0.9084545599904387
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.7163160097228928,
+                    "rel_y": 0.3320975092396838
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 41,
+                "text": "`",
+                "virtual_key": 192
+            },
+            "rel_work_position": {
+                "rel_x": 0.7163160097228928,
+                "rel_y": 0.3320975092396838
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.2588736662280823,
+                    "rel_y": 0.8466124100995387
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 47,
+                "text": "V",
+                "virtual_key": 86
+            },
+            "rel_work_position": {
+                "rel_x": 0.2588736662280823,
+                "rel_y": 0.8466124100995387
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.20086299581712538,
+                    "rel_y": 0.05518275084414879
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 15,
+                "text": "Tab",
+                "virtual_key": 9
+            },
+            "press_actions": [
+                "click_rel:(0.070444,0.912925);(0.068913,0.912925)",
+                "exit_staring",
+                "release_all",
+                "sleep:130",
+                "keyboard_switch:53"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.20086299581712538,
+                "rel_y": 0.05518275084414879
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.5013131976362443,
+                    "rel_y": 0.23740569643674697
+                },
+                "visibility": true
+            },
+            "input_policy": {
+                "interval": 8
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 29,
+                "text": "Ctrl",
+                "virtual_key": 17
+            },
+            "rel_work_position": {
+                "rel_x": 0.5013131976362443,
+                "rel_y": 0.23740569643674697
+            },
+            "reset_policy": {
+                "auto_reset_period": -1,
+                "need_reset": true,
+                "reset_type": "Range_Window",
+                "reset_wait_interval": 8
+            },
+            "sensitivity_x": 22,
+            "sensitivity_y": 46,
+            "staring_range": {
+                "rel_height": 1.2613768961493583,
+                "rel_width": 1.2613263296126067
+            },
+            "type": "Staring"
+        },
+        {
+            "editor_icon_scale": 1,
+            "fire_option": {
+                "fire_range_policy": "Fire_range_unlimited"
+            },
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.06608939551109946,
+                    "rel_y": 0.5091997052520796
+                },
+                "visibility": true
+            },
+            "input_policy": {
+                "interval": 8
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 1,
+                "text": "left_mouse",
+                "virtual_key": 1
+            },
+            "need_fire_and_drag": false,
+            "rel_work_position": {
+                "rel_x": 0.06608939551109946,
+                "rel_y": 0.5091997052520796
+            },
+            "swipehold_info": {
+                "invalid_zone_info": {
+                    "enable": false,
+                    "rel_radius_inside_invalid_zone": 0.005,
+                    "rel_radius_outside_invalid_zone": 0.01
+                },
+                "rel_position": {
+                    "rel_x": 0,
+                    "rel_y": 0
+                },
+                "rel_radius": 0.1,
+                "steps": 6
+            },
+            "type": "Fire"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.8012915080255477,
+                    "rel_y": 0.20958721125965188
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 13,
+                "text": "=",
+                "virtual_key": 187
+            },
+            "rel_work_position": {
+                "rel_x": 0.8012915080255477,
+                "rel_y": 0.20958721125965188
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.8943075210512548,
+                    "rel_y": 0.35976343722205256
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 61,
+                "text": "F3",
+                "virtual_key": 114
+            },
+            "rel_work_position": {
+                "rel_x": 0.8943075210512548,
+                "rel_y": 0.35976343722205256
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.7741087711385598,
+                    "rel_y": 0.31017626849243674
+                },
+                "visibility": false
+            },
+            "input_policy": {
+                "interval": 8
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 56,
+                "text": "Alt",
+                "virtual_key": 18
+            },
+            "rel_work_position": {
+                "rel_x": 0.7741087711385598,
+                "rel_y": 0.31017626849243674
+            },
+            "sensitivity": 1.5000000000000004,
+            "sensitivity_x": 50,
+            "sensitivity_y": 50,
+            "type": "Observe"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.9683682513977961,
+                    "rel_y": 0.5254256997821233
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 2,
+                "text": "right_mouse",
+                "virtual_key": 2
+            },
+            "rel_work_position": {
+                "rel_x": 0.9683682513977961,
+                "rel_y": 0.5254256997821233
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.7577265993761675,
+                    "rel_y": 0.928525398243095
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 19,
+                "text": "R",
+                "virtual_key": 82
+            },
+            "rel_work_position": {
+                "rel_x": 0.7577265993761675,
+                "rel_y": 0.928525398243095
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.09525382537725056,
+                    "rel_y": 0.05684857639277623
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 53,
+                "text": "/",
+                "virtual_key": 191
+            },
+            "press_actions": [
+                "exit_staring"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.09525382537725056,
+                "rel_y": 0.05684857639277623
+            },
+            "release_actions": [
+                "enter_staring"
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.12164504058430854,
+                    "rel_y": 0.11764219656444126
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 7,
+                "text": "6",
+                "virtual_key": 54
+            },
+            "press_actions": [
+                "curve_rel:(0.691424,0.933333);(0.666156,0.887075)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.12164504058430854,
+                "rel_y": 0.11764219656444126
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.08269693721166187,
+                    "rel_y": 0.11384492194324144
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 6,
+                "text": "5",
+                "virtual_key": 53
+            },
+            "press_actions": [
+                "curve_rel:(0.689127,0.934694);(0.714395,0.895238)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.08269693721166187,
+                "rel_y": 0.11384492194324144
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.1416442421959398,
+                    "rel_y": 0.36654906760745903
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 16,
+                "text": "Q",
+                "virtual_key": 81
+            },
+            "rel_work_position": {
+                "rel_x": 0.1416442421959398,
+                "rel_y": 0.36654906760745903
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.2940082567422701,
+                    "rel_y": 0.12077549499599037
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 60,
+                "text": "F2",
+                "virtual_key": 113
+            },
+            "press_actions": [
+                "click_rel:(0.957121,0.365986)",
+                "sleep:100",
+                "click_rel:(0.854518,0.202721)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.2940082567422701,
+                "rel_y": 0.12077549499599037
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.22299592039333246,
+                    "rel_y": 0.3620956889987821
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 18,
+                "text": "E",
+                "virtual_key": 69
+            },
+            "rel_work_position": {
+                "rel_x": 0.22299592039333246,
+                "rel_y": 0.3620956889987821
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.2856272799581097,
+                    "rel_y": 0.05600933488914819
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 34,
+                "text": "G",
+                "virtual_key": 71
+            },
+            "press_actions": [
+                "click_rel:(0.873660,0.448980)",
+                "click_rel:(0.676110,0.540136)",
+                "click_rel:(0.601072,0.619048)",
+                "click_rel:(0.514548,0.329252)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.2856272799581097,
+                "rel_y": 0.05600933488914819
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.6699273373680433,
+                    "rel_y": 0.2527212704526532
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 45,
+                "text": "X",
+                "virtual_key": 88
+            },
+            "rel_work_position": {
+                "rel_x": 0.6699273373680433,
+                "rel_y": 0.2527212704526532
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.7321076822061721,
+                    "rel_y": 0.4049008168028005
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 35,
+                "text": "H",
+                "virtual_key": 72
+            },
+            "rel_work_position": {
+                "rel_x": 0.7321076822061721,
+                "rel_y": 0.4049008168028005
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.1803273676502061,
+                    "rel_y": 0.18246120301697238
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 20,
+                "text": "T",
+                "virtual_key": 84
+            },
+            "press_actions": [
+                "click_rel:(0.969796,0.861144)",
+                "exit_staring"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.1803273676502061,
+                "rel_y": 0.18246120301697238
+            },
+            "release_actions": [
+                "enter_staring"
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.3096871829787751,
+                    "rel_y": 0.9293590635964653
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 62,
+                "text": "F4",
+                "virtual_key": 115
+            },
+            "rel_work_position": {
+                "rel_x": 0.3096871829787751,
+                "rel_y": 0.9293590635964653
+            },
+            "spell_info": {
+                "range": 26,
+                "rel_position": {
+                    "rel_x": 0.5,
+                    "rel_y": 0.5
+                },
+                "rel_radius": 0.5
+            },
+            "spell_option": {
+                "is_occupy_swipehold_input": false,
+                "left_mouse_control_release": true,
+                "need_spell_direction": true,
+                "spell_mode_policy": "Spell_mode_intelligent",
+                "spell_touch_location_policy": "Spell_touch_location_mouse_dependence",
+                "spell_trigger_policy": "Spell_Trigger_On_Release_Key",
+                "stop_walk_after_spell": false,
+                "walk_with_spell": true
+            },
+            "swipehold_info": {
+                "first_point_policy": {
+                    "handle_type": "Move",
+                    "idle_before_first_press": 0,
+                    "interval": 32,
+                    "move_type": "Constant",
+                    "no_press_first_center_point": false,
+                    "period": 16,
+                    "speed": 100,
+                    "steps": 6,
+                    "wait_for_second": 8
+                },
+                "hold_center_interval_after_release": 0,
+                "in_line_policy": "Use_Both",
+                "interval": 32,
+                "invalid_zone_info": {
+                    "enable": false,
+                    "rel_radius_inside_invalid_zone": 0.005,
+                    "rel_radius_outside_invalid_zone": 0.01
+                },
+                "period": 16,
+                "rel_position": {
+                    "rel_x": 0,
+                    "rel_y": 0
+                },
+                "rel_radius": 0.1,
+                "speed": 100,
+                "start_additional_point_info": {
+                    "distance": 0.01,
+                    "enable": true,
+                    "period": 8,
+                    "steps": 4
+                },
+                "steps": 6,
+                "subsequent_point_policy": {
+                    "handle_type": "Click",
+                    "period": 16,
+                    "steps": 6
+                },
+                "target_point_input_compensatory_policy": {
+                    "count": 3,
+                    "distance": 0.01,
+                    "enable": false,
+                    "period": 8,
+                    "steps": 3,
+                    "x_policy": "Default",
+                    "x_policy_intercept_phaseshift": 0,
+                    "x_policy_slope_period": 1,
+                    "y_policy": "Default",
+                    "y_policy_intercept_phaseshift": 0,
+                    "y_policy_slope_period": 1
+                }
+            },
+            "type": "Spell"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.3943402443634656,
+                    "rel_y": 0.0589395210196005
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "mouse",
+                "scan_code": 548,
+                "text": "wheel_up_mouse",
+                "virtual_key": -1
+            },
+            "press_actions": [
+                "click_rel:(0.308943,0.210250)",
+                "click_rel:(0.308943,0.316689)",
+                "click_rel:(0.308943,0.212878)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.3943402443634656,
+                "rel_y": 0.0589395210196005
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.6150885296381832,
+                    "rel_y": 0.8358413132694938
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 4,
+                "text": "3",
+                "virtual_key": 51
+            },
+            "rel_work_position": {
+                "rel_x": 0.6150885296381832,
+                "rel_y": 0.8358413132694938
+            },
+            "type": "Click"
+        },
+        {
+            "editor_icon_scale": 1,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.0451761102603369,
+                    "rel_y": 0.11972789115646258
+                },
+                "visibility": true
+            },
+            "key": {
+                "device": "keyboard",
+                "scan_code": 8,
+                "text": "7",
+                "virtual_key": 55
+            },
+            "press_actions": [
+                "curve_rel:(0.692190,0.933333);(0.722818,0.931973)"
+            ],
+            "rel_work_position": {
+                "rel_x": 0.0451761102603369,
+                "rel_y": 0.11972789115646258
+            },
+            "release_actions": [
+
+            ],
+            "type": "Macro"
+        },
+        {
+            "bottom_key": {
+                "device": "keyboard",
+                "scan_code": 31,
+                "text": "S",
+                "virtual_key": 83
+            },
+            "editor_icon_scale": 0.8185994709731311,
+            "first_point_policy": {
+                "handle_type": "Move",
+                "idle_before_first_press": 0,
+                "interval": 32,
+                "move_type": "Constant",
+                "no_press_first_center_point": false,
+                "period": 16,
+                "speed": 100,
+                "steps": 6,
+                "wait_for_second": 8
+            },
+            "hold_center_interval_after_release": 0,
+            "icon": {
+                "background_color": "00000066",
+                "description": "",
+                "radius_correction": 1,
+                "rel_position": {
+                    "rel_x": 0.16003062787136293,
+                    "rel_y": 0.7482993197278912
+                },
+                "visibility": true
+            },
+            "in_line_policy": "Use_Both",
+            "key": {
+                "device": "",
+                "scan_code": 2147483647,
+                "text": "",
+                "virtual_key": 2147483647
+            },
+            "left_key": {
+                "device": "keyboard",
+                "scan_code": 30,
+                "text": "A",
+                "virtual_key": 65
+            },
+            "rel_radius": 0.07350689127105667,
+            "rel_work_position": {
+                "rel_x": 0.16003062787136293,
+                "rel_y": 0.7482993197278912
+            },
+            "right_key": {
+                "device": "keyboard",
+                "scan_code": 32,
+                "text": "D",
+                "virtual_key": 68
+            },
+            "subsequent_point_policy": {
+                "handle_type": "Click",
+                "period": 16,
+                "steps": 6
+            },
+            "target_point_input_compensatory_policy": {
+                "count": 3,
+                "distance": 0.01,
+                "enable": false,
+                "period": 8,
+                "steps": 3,
+                "x_policy": "Default",
+                "x_policy_intercept_phaseshift": 0,
+                "x_policy_slope_period": 1,
+                "y_policy": "Default",
+                "y_policy_intercept_phaseshift": 0,
+                "y_policy_slope_period": 1
+            },
+            "top_key": {
+                "device": "keyboard",
+                "scan_code": 17,
+                "text": "W",
+                "virtual_key": 87
+            },
+            "type": "Swipehold"
+        }
+    ],
+    "param": {
+        "transparent_joystick_policy": {
+            "protocol_version": 0
+        },
+        "transparent_wheel_policy": {
+            "protocol_version": 0,
+            "sensitivity": 1
+        },
+        "virtual_joystick": {
+            "enable": false
+        },
+        "wheel_policy": {
+            "small_point_move_first": false,
+            "wheel_step_distance": 0.01,
+            "zoom_degree": 45,
+            "zoom_first_interval": 16,
+            "zoom_last_idle": 0,
+            "zoom_margin": 20,
+            "zoom_operation_shortcut_mode": false,
+            "zoom_period": 16,
+            "zoom_step_distance": 0.00625,
+            "zoom_steps": 8
+        }
+    }
+}
